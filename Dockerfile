@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos8
 RUN yum install java -y
 RUN mkdir /opt/tomcat
 WORKDIR /opt/tomcat
